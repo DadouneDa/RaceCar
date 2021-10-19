@@ -245,7 +245,7 @@ def hanele_collision(player_car, computer_car, game_info):
             game_info.next_level()
             player_car.reset()
             computer_car.next_level(game_info.level)
-            print("finish")
+            print("finish!")
 
 
 run = True
